@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('./fonts/circe-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    }
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@500&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.page{
+    position: absolute;
+    max-width: 1440px;
+}
+
+.header-container{
+    padding: 25px 0px 25px 140px ;
+    display: flex;
+    align-content: space-around;
+}
+
+.header-list{
+    padding-left: 530px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #000E4B;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:   'Circe Bold';
+    font-style: normal;
+    font-weight: bold;
+}
+.header-list__item{
+    margin-left: 60px;
+}
+
+.lorem{
+    padding-left: 120px;
+    padding-bottom: 210px;
+    background-color:#F3F8FF; ;
+
+}
+
+.lorem-title{
+    text-align: center;
+    width: 574px;
+    padding-top: 102px;
+    margin-left: 313px;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    color:  #000E4B;;
+}
+
+
+.lorem-title__color{
+    font-family: Circe;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    color:#FC5151;
+}
+
+.lorem-info{
+   
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lorem-info__ipsum{
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: 30px;
+  
+}
+
+.lorem-info__picture{
+   
+    padding: 30px 30px 20px 30px;
+
+}
+
+.lorem-info__title{
+padding-left: 30px;
+font-family: Circe;
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 30px;
+color: #000E4B;
+}
+
+.lorem-info__subtitle{
+    max-width: 320px;
+    padding:0px 30px 30px 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    color: rgba(0, 14, 75, 0.85);
+}
+
+.footer{
+    background-color:#F3F8FF;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-info{
+    margin-top: 30px;
+    padding-left: 700px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000E4B;
+    opacity: 0.3;
+}
+
+.footer-sotial{
+    margin-left: 120px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-sotial-item{
+    margin-left: 26px;
+}
+
+hr{
+  
+    width: 83%;
+    margin-left:  150px;
+    size: 1px;
+    background: #000E4B;
+    opacity: 0.1;
+}
+
